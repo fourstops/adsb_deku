@@ -843,14 +843,14 @@ fn draw_lines(ctx: &mut tui::widgets::canvas::Context<'_>) {
         y1: 0.0,
         x2: MAX_PLOT_LOW,
         y2: 0.0,
-        color: Color::White,
+        color: Color::Blue,
     });
     ctx.draw(&Line {
         x1: 0.0,
         y1: MAX_PLOT_HIGH,
         x2: 0.0,
         y2: MAX_PLOT_LOW,
-        color: Color::White,
+        color: Color::Blue,
     });
 }
 
