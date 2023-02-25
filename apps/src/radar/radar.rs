@@ -751,7 +751,7 @@ fn draw(
                         ))
                         .borders(Borders::ALL),
                 )
-                .style(Style::default().fg(Color::White))
+                .style(Style::default().fg(Color::Yellow))
                 .highlight_style(Style::default().fg(Color::Green))
                 .select(settings.tab_selection as usize)
                 .divider(DOT);
